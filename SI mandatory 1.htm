@@ -1,0 +1,337 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Calibri Light";
+	panose-1:2 15 3 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{color:#0563C1;
+	text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:3.0cm 2.0cm 3.0cm 2.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+</head>
+
+<body lang=DA link="#0563C1" vlink="#954F72" style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal><span style='font-size:28.0pt;line-height:107%;font-family:
+"Calibri Light",sans-serif;letter-spacing:-.5pt'>SI mandatory 1 - Database
+Documentation</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The following is connection instructions as
+to how to connect to the ClassicModels database through a terminal or command
+prompt</span>. If you have any issues connecting or if you have any suggestions
+for improvements please feel free to reach out to me at <a
+href="mailto:mich8g55@stud.kea.dk">mich8g55@stud.kea.dk</a>.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US>Database documentation</span></b></p>
+
+<p class=MsoNormal><span lang=EN-US>The MySQL sample database schema consists
+of the following tables:</span></p>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal><b>Customers</b>: stores customer’s data.</li>
+ <li class=MsoNormal><b><span lang=EN-US>Products</span></b><span lang=EN-US>:
+     stores a list of scale model cars.</span></li>
+ <li class=MsoNormal><b><span lang=EN-US>ProductLines</span></b><span
+     lang=EN-US>: stores a list of product line categories.</span></li>
+ <li class=MsoNormal><b><span lang=EN-US>Orders</span></b><span lang=EN-US>:
+     stores sales orders placed by customers.</span></li>
+ <li class=MsoNormal><b><span lang=EN-US>OrderDetails</span></b><span
+     lang=EN-US>: stores sales order line items for each sales order.</span></li>
+ <li class=MsoNormal><b><span lang=EN-US>Payments</span></b><span lang=EN-US>:
+     stores payments made by customers based on their accounts.</span></li>
+ <li class=MsoNormal><b><span lang=EN-US>Employees</span></b><span lang=EN-US>:
+     stores all employee information as well as the organization structure such
+     as who reports to whom.</span></li>
+ <li class=MsoNormal><b><span lang=EN-US>Offices</span></b><span lang=EN-US>:
+     stores sales office data.</span></li>
+</ul>
+
+<p class=MsoNormal><b><span lang=EN-US>Schema:</span></b></p>
+
+<p class=MsoNormal><img border=0 width=643 height=513 id="Billede 1"
+src="SI%20mandatory%201-filer/image003.png" alt="MySQL Sample Database Schema"></p>
+
+<p class=MsoNormal><b><span lang=EN-US>&nbsp;</span></b></p>
+
+<p class=MsoNormal><span lang=EN-US>The schema can also be viewed as a pdf through
+the following link:<b> <a
+href="https://www.mysqltutorial.org/wp-content/uploads/2018/04/MySQL-Sample-Database-Diagram-PDF-A4.pdf">https://www.mysqltutorial.org/wp-content/uploads/2018/04/MySQL-Sample-Database-Diagram-PDF-A4.pdf</a>
+</b></span></p>
+
+<p class=MsoNormal><b><span lang=EN-US>Connection parameters</span></b></p>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=321 valign=top style='width:240.7pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:150%'><b><span
+  lang=EN-US>Key</span></b></p>
+  </td>
+  <td width=321 valign=top style='width:240.7pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:150%'><b><span
+  lang=EN-US>Value</span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=321 valign=top style='width:240.7pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:150%'><span
+  lang=EN-US>SERVER_NAME</span></p>
+  </td>
+  <td width=321 valign=top style='width:240.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:150%'><span
+  lang=EN-US>SI-mandatory-1-server.mysql.database.azure.com</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=321 valign=top style='width:240.7pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:150%'><span
+  lang=EN-US>PORT</span></p>
+  </td>
+  <td width=321 valign=top style='width:240.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:150%'><span
+  lang=EN-US>3306</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=321 valign=top style='width:240.7pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:150%'><span
+  lang=EN-US>DATABASE_NAME</span></p>
+  </td>
+  <td width=321 valign=top style='width:240.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:150%'><span
+  lang=EN-US>classicmodels</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><b><span lang=EN-US>&nbsp;</span></b></p>
+
+<p class=MsoNormal><b><span lang=EN-US>SQL users</span></b></p>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=224 valign=top style='width:167.65pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b><span
+  lang=EN-US>Username</span></b></p>
+  </td>
+  <td width=221 valign=top style='width:165.7pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b><span
+  lang=EN-US>Password</span></b></p>
+  </td>
+  <td width=197 valign=top style='width:148.05pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b><span
+  lang=EN-US>Privileges</span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=224 valign=top style='width:167.65pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>readUser</span></p>
+  </td>
+  <td width=221 valign=top style='width:165.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>8&amp;^mE#fRt9</span></p>
+  </td>
+  <td width=197 valign=top style='width:148.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>Read-only</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=224 valign=top style='width:167.65pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>appUser</span></p>
+  </td>
+  <td width=221 valign=top style='width:165.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>$p@5!K#u8L</span></p>
+  </td>
+  <td width=197 valign=top style='width:148.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>Write-only</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=224 valign=top style='width:167.65pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>adminUser</span></p>
+  </td>
+  <td width=221 valign=top style='width:165.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>qN*2@fD#7s</span></p>
+  </td>
+  <td width=197 valign=top style='width:148.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>Full privileges e.g. root user</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><b><span lang=EN-US>&nbsp;</span></b></p>
+
+<p class=MsoNormal><b><span lang=EN-US>Prerequisites</span></b><span
+lang=EN-US>:</span></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt'><span
+lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>A MySQL client installed on your local machine
+(e.g. MySQL CLI, MariaDB, etc.)</span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt'><span lang=EN-US
+style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Make sure your local mysql server is running.
+mysql.server is running - try mysql.server start to run the server.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US>Note</span></b><span lang=EN-US>: If you
+get the following error “error 2002 (hy000): can't connect to local mysql
+server through socket '/tmp/mysql.sock' (2)” that error message usually means
+that the MySQL server is not running or is not configured to use the default
+socket file location.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US>Steps</span></b><span lang=EN-US>:</span></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt'><span
+lang=EN-US>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Open your terminal or command prompt.</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'><span
+lang=EN-US>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Type the following command to connect to your
+Azure MySQL database:</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:72.0pt;text-indent:-18.0pt'><span
+lang=EN-US>a.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>mysql -u USERNAME -p -h
+SERVER_NAME.mysql.database.azure.com -P 3306 -D DATABASE_NAME</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:72.0pt;text-indent:-18.0pt'><span
+lang=EN-US>b.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Replace USERNAME with the username you set up
+for remote connections to your Azure MySQL database, SERVER_NAME with the fully
+qualified domain name (FQDN) of your Azure MySQL server, and DATABASE_NAME with
+the name of the database you want to connect to.</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'><span
+lang=EN-US>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Press enter and you'll be prompted to enter your
+password. Type in the password you set up for remote connections to your Azure
+MySQL database and press enter.</span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt'><span lang=EN-US>4.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+lang=EN-US>If the connection is successful, you'll be connected to your Azure
+MySQL database and you can start running SQL commands.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+</div>
+
+</body>
+
+</html>
